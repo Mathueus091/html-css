@@ -33,10 +33,10 @@ body {
 header h1 {
     color: white;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
     padding-top: 4%;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 header p {
@@ -59,10 +59,10 @@ main {
 
 main h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 10px;
     padding-left: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main p {
