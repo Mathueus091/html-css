@@ -2,38 +2,66 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
-:root {
-    
+* {
+    margin: 0;
+    padding: 0;
 }
 
-* {
-    padding: 0%;
-    margin: 0%;
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
     background-color: black;
-    min-height: 200px;
-    max-height: 200px;
+    color: white;
+    text-align: center;
 }
 
 header h1 {
-    color: white;
-    font-family: 'Passion One', cursive;
-    font-size: 6em;
-    font-weight: normal;
-    text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
-header p {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-} 
+header > p {
+    padding-bottom: 50px;
+}
 
-header p > a {
+header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(97, 97, 97);
+    color: white;
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgb(32, 28, 28);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
