@@ -11,12 +11,19 @@
         }
 
         table {
-            width: 400px;
+            width: 500px;
             border-collapse: collapse;
         }
 
         caption {
-            
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         td, th {
@@ -40,13 +47,13 @@
         <thead>
             <tr>
                 <th scope="col">Estados</th>
-                <th scope="col">População</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tfoot>
             <tr>
-                <td><strong>Total de habitantes</strong></td>
-                <td class="num">207.750.291</td>
+                <td scope="row">Total de habitantes</td>
+                <td class="num"><strong>207.750.291</strong></td>
             </tr>
         </tfoot>
         <tbody>
