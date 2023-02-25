@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+
+        </div>
+        <div class="right-login">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente.Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        </div>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <div class="campo">
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required minlength="5" maxlength="30" placeholder="seu e-mail">
+            </div>
+            <div class="botao">
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha" required minlength="5" maxlength="30" placeholder="sua senha">
+            </div>
+            <input type="submit" value="Entrar" class="botao">
+            <a href="esqueci.html">
+                Esqueci a senha
+            </a>
+        </form>
+    </div>
+</body>
+</html>
